@@ -1,0 +1,3 @@
+include ':leetCode'
+include ':app'
+rootProject.name = "LeetCodeDemo"
