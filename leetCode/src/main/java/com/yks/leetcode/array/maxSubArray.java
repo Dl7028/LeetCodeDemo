@@ -1,5 +1,7 @@
 package com.yks.leetcode.array;
 
+import com.yks.leetcode.ArrayUtils;
+
 /**
  * @Description: 给定一个整数数组 nums ，找到一个具有最大和的连续子数组（子数组最少包含一个元素），返回其最大和。
  * @Author: Yu ki-r
@@ -7,6 +9,7 @@ package com.yks.leetcode.array;
  */
 public class maxSubArray {
     public static void main(String[] args) {
+
 
     }
 
@@ -16,7 +19,7 @@ public class maxSubArray {
      * f(i) 表示0~i项相加的值，用一个数组保存f(i)元素，比较f(i)大小就可以得出最大和的连续数组;
      * f(i)的值只与f(i-1)有关，可以用一个变量维护当前f(i)的f(i-1)的值;
      */
-    public int dynamicPlaneSolution(int[] nums){
+    public static int dynamicPlaneSolution(int[] nums){
         int pre = 0,maxAns = nums[0];
 
         //遍历nums数组
