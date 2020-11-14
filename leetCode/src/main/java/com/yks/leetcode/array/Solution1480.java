@@ -10,7 +10,7 @@ import static jdk.nashorn.internal.objects.Global.print;
  * @Author: Yu ki-r
  * @CreateDate: 2020/11/13 10:48
  */
-public class Topic1480 {
+public class Solution1480 {
 
 
 
