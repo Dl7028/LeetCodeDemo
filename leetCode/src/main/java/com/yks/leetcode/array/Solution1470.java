@@ -15,19 +15,11 @@ public class Solution1470 {
 
 
     public static void main(String[] args) {
-        int[] arr = ArrayUtils.gennerateArray(8,10);
-        for (int i = 0; i < arr.length; i++){
-            System.out.print(arr[i]+"   ");
-
-        }
-
-        System.out.println("\n=============================================");
-        int[] b = shuffle(arr,4);
-        for (int i = 0; i < b.length; i++){
-            System.out.print(b[i]+"   ");
-        }
+        ArrayUtils.printResult(new getArray());
 
     }
+
+
 
     public static int[] shuffle(int[] nums, int n) {
         /**
@@ -51,4 +43,13 @@ public class Solution1470 {
         return result;
     }
 
+    private static class getArray implements ArrayUtils.GetArray {
+        @Override
+        public void getArray(int[] a) {
+            int[] b = shuffle(a,4);
+            for (int i = 0; i < b.length; i++){
+                System.out.print(b[i]+"   ");
+            }
+        }
+    }
 }
