@@ -43,6 +43,8 @@ public class Solution1470 {
         return result;
     }
 
+
+
     private static class getArray implements ArrayUtils.GetArray {
         @Override
         public void getArray(int[] a) {
@@ -52,4 +54,6 @@ public class Solution1470 {
             }
         }
     }
+
+
 }

@@ -34,9 +34,7 @@ public class ArrayUtils {
         myArray.getArray(arr);
     }
 
-    interface function {
 
-    }
 
 
 
