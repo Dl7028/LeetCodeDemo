@@ -3,7 +3,6 @@ package com.yks.leetcode.array;
 import java.util.ArrayList;
 import java.util.List;
 
-import static sun.swing.MenuItemLayoutHelper.max;
 
 /**
  * @Description: 1431. 拥有最多糖果的孩子
