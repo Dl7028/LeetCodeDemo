@@ -1,4 +1,4 @@
-package com.yks.leetcode.array;
+package com.yks.leetcode.offer;
 
 /**
  * @Description: 剑指 Offer 58 - II. 左旋转字符串
