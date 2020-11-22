@@ -1,4 +1,4 @@
-package com.yks.leetcode;
+package com.yks.leetcode.utils;
 
 /**
  * @Description:    数组的工具类
