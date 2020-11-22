@@ -1,6 +1,6 @@
 package com.yks.leetcode.array;
 
-import com.yks.leetcode.ArrayUtils;
+import com.yks.leetcode.utils.ArrayUtils;
 
 import java.util.HashMap;
 import java.util.Map;

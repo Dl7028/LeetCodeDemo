@@ -1,6 +1,6 @@
 package com.yks.leetcode.array;
 
-import com.yks.leetcode.ArrayUtils;
+import com.yks.leetcode.utils.ArrayUtils;
 
 /**
  * @Description: 重新排列数组

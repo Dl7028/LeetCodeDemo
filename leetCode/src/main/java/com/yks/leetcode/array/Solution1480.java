@@ -1,8 +1,6 @@
 package com.yks.leetcode.array;
 
-import com.yks.leetcode.ArrayUtils;
-
-import static jdk.nashorn.internal.objects.Global.print;
+import com.yks.leetcode.utils.ArrayUtils;
 
 /**
  * @Description: 给你一个数组 nums 。数组「动态和」的计算公式为：runningSum[i] = sum(nums[0]…nums[i]) 。
