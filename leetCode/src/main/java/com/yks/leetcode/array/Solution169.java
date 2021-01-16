@@ -119,7 +119,7 @@ public class Solution169 {
             int candidate = nums[randRange(rand, 0, nums.length)];
             if (countOccurences(nums, candidate) > majorityCount) {
                 return candidate;
-            }
+            } 
         }
     }
 
