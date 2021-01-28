@@ -1,4 +1,4 @@
-package com.yks.leetcode.精选TOP面试题.offer;
+package com.yks.leetcode.精选TOP面试题;
 
 /**
  * @Description: 剑指 Offer 65. 不用加减乘除做加法

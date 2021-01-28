@@ -1,4 +1,4 @@
-package com.yks.leetcode.精选TOP面试题.linked_list;
+package com.yks.leetcode.精选TOP面试题;
 
 /**
  * @Description: 237. 删除链表中的节点

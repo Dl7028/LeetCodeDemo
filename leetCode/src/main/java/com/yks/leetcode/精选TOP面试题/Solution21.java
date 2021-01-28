@@ -1,4 +1,4 @@
-package com.yks.leetcode.精选TOP面试题.linked_list;
+package com.yks.leetcode.精选TOP面试题;
 
 /**
  * @Description: 21. 合并两个有序链表

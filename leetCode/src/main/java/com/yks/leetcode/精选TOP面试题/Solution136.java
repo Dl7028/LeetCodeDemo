@@ -1,4 +1,4 @@
-package com.yks.leetcode.精选TOP面试题.bit_operation;
+package com.yks.leetcode.精选TOP面试题;
 
 /**
  * @Description: 136. 只出现一次的数字

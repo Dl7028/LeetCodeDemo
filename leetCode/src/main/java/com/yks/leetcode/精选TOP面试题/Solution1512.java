@@ -1,4 +1,4 @@
-package com.yks.leetcode.精选TOP面试题.array;
+package com.yks.leetcode.精选TOP面试题;
 
 import com.yks.leetcode.精选TOP面试题.utils.ArrayUtils;
 

@@ -1,4 +1,4 @@
-package com.yks.leetcode.精选TOP面试题.array;
+package com.yks.leetcode.精选TOP面试题;
 
 /**
  * @Description: 1486. 数组异或操作

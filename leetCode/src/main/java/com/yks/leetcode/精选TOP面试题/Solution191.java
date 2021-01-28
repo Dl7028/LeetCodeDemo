@@ -1,4 +1,4 @@
-package com.yks.leetcode.精选TOP面试题.bit_operation;
+package com.yks.leetcode.精选TOP面试题;
 
 /**
  * @Description: 位运算：191. 位1的个数

@@ -1,4 +1,4 @@
-package com.yks.leetcode.精选TOP面试题.tree;
+package com.yks.leetcode.精选TOP面试题;
 
 /**
  * @Description: 108. 将有序数组转换为二叉搜索树

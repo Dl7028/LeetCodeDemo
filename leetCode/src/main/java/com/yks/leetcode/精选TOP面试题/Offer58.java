@@ -1,4 +1,4 @@
-package com.yks.leetcode.精选TOP面试题.offer;
+package com.yks.leetcode.精选TOP面试题;
 
 /**
  * @Description: 剑指 Offer 58 - II. 左旋转字符串

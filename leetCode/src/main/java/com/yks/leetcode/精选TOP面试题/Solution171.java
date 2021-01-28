@@ -1,4 +1,4 @@
-package com.yks.leetcode.精选TOP面试题.math;
+package com.yks.leetcode.精选TOP面试题;
 
 /**
  * @Description: 171. Excel表列序号
