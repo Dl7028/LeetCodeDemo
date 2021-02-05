@@ -71,8 +71,54 @@ public class Offer30 {
         }
     }
 
+    /**
+     * 方法二：用node
+     */
+    class MinStack2 {
 
 
+        Stack<Node>  minStack;
+        /** initialize your data structure here. */
+        public MinStack2() {
+            minStack = new Stack<>();
+        }
+
+        public void push(int x) {
+            Node n;
+            if (minStack.isEmpty()){
+                n = new Node(x,x);
+            }
+            else if (x<=minStack.peek().min){
+                n = new Node(x,x);
+            }
+            else{
+                n = new Node(x,minStack.peek().min);
+            }
+            minStack.push(n);
+        }
+
+        public void pop() {
+            minStack.pop();
+        }
+
+        public int top() {
+           return minStack.peek().val;
+        }
+
+        public int min() {
+            return minStack.peek().min;
+        }
+    }
+
+    public class Node {
+        int val;
+        int min;
+        public Node(int x, int y){
+            this.val = x;
+            this.min = y;
+        }
+
+    }
 
 
 
